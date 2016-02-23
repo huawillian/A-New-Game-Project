@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8BB6C1D6-BBF0-96DB-6E94-80C29C47BDE9}") = "Cinematic Plugin", "Assembly-CSharp.csproj", "{E25C9A49-CC92-4981-BB2E-F604F39E9434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E25C9A49-CC92-4981-BB2E-F604F39E9434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25C9A49-CC92-4981-BB2E-F604F39E9434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25C9A49-CC92-4981-BB2E-F604F39E9434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25C9A49-CC92-4981-BB2E-F604F39E9434}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
