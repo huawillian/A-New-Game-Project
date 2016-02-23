@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B39B20F0-C6A3-B474-9FAE-AAED10C8B117}</ProjectGuid>
+    <ProjectGuid>{CC318B16-7C95-706E-BD9F-5120851AAA98}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,6 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Menu_Display_Interface.cs" />
+     <Compile Include="Assets\Menu_InventoryController.cs" />
+     <Compile Include="Assets\Menu_MenuController.cs" />
+     <Compile Include="Assets\Menu_SquadController.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_SpriteStringString_Data.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_SpriteString_Data.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_StringStringSprite_Data.cs" />

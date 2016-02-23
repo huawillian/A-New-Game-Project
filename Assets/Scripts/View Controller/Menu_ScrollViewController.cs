@@ -43,26 +43,26 @@ public class Menu_ScrollViewController: MonoBehaviour, Menu_ScrollView_Interface
 
 		string prefabName = rowPrefab.name;
 
-		switch (prefabName) {
-		case "StringRow":
+		if (prefabName.StartsWith ("StringRow")) {
 			type = Menu_ScrollViewType.STRINGONLY;
-			break;
-		case "StringStringRow":
-			type = Menu_ScrollViewType.STRINGSTRING;
-			break;
-		case "SpriteStringRow":
-			type = Menu_ScrollViewType.SPRITESTRING;
-			break;
-		case "SpriteStringStringRow":
-			type = Menu_ScrollViewType.SPRITESTRINGSTRING;
-			break;
-		case "StringStringSpriteRow":
-			type = Menu_ScrollViewType.STRINGSTRINGSPRITE;
-			break;
-		default:
-			Debug.Log ("ERROR! Invalid prefab for scrollview...");
-			break;
 		}
+
+		if (prefabName.StartsWith ("StringStringRow")) {
+			type = Menu_ScrollViewType.STRINGSTRING;
+		}
+
+		if (prefabName.StartsWith ("SpriteStringRow")) {
+			type = Menu_ScrollViewType.SPRITESTRING;
+		}
+
+		if (prefabName.StartsWith ("SpriteStringStringRow")) {
+			type = Menu_ScrollViewType.SPRITESTRINGSTRING;
+		}
+
+		if (prefabName.StartsWith ("StringStringSpriteRow")) {
+			type = Menu_ScrollViewType.STRINGSTRINGSPRITE;
+		}
+			
 	}
 
 	// Use this for initialization
