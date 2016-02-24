@@ -45,21 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Menu_Display_Interface.cs" />
-     <Compile Include="Assets\Menu_InventoryController.cs" />
-     <Compile Include="Assets\Menu_MenuController.cs" />
-     <Compile Include="Assets\Menu_SquadController.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_SpriteStringString_Data.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_SpriteString_Data.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_StringStringSprite_Data.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_StringString_Data.cs" />
      <Compile Include="Assets\Scripts\Data\Menu_String_Data.cs" />
+     <Compile Include="Assets\Scripts\Interface\Menu_Display_Interface.cs" />
      <Compile Include="Assets\Scripts\Interface\Menu_ScrollView_Interface.cs" />
+     <Compile Include="Assets\Scripts\Menu_InventoryController.cs" />
+     <Compile Include="Assets\Scripts\Menu_MenuController.cs" />
      <Compile Include="Assets\Scripts\Menu_Sidebar_Driver.cs" />
+     <Compile Include="Assets\Scripts\Menu_SquadController.cs" />
      <Compile Include="Assets\Scripts\View Controller\Menu_FooterViewController.cs" />
      <Compile Include="Assets\Scripts\View Controller\Menu_HeaderViewController.cs" />
      <Compile Include="Assets\Scripts\View Controller\Menu_ScrollViewController.cs" />
-     <Compile Include="Assets\Scripts\View Controller\Menu_SidebarViewController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
