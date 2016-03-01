@@ -16,5 +16,6 @@ public class Enemy_Movement : MonoBehaviour
 	void Update ()
 	{
 		agent.destination = person.transform.position; //transform of the person object
+		agent.updateRotation = false;
 	}
 }
